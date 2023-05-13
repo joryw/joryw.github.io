@@ -192,7 +192,7 @@
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
       envId: 'jorw-9guq9iya88083de3',
-      region: '',
+      region: 'ap-shanghai',
       onCommentLoaded: function () {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
       }
@@ -204,7 +204,7 @@
     if(!countELement) return
     twikoo.getCommentsCount({
       envId: 'jorw-9guq9iya88083de3',
-      region: '',
+      region: 'ap-shanghai',
       urls: [window.location.pathname],
       includeReply: false
     }).then(function (res) {
