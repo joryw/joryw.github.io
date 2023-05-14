@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>mybatis-plus接入多个数据库遇到的问题</title>
+      <link href="/2023/05/14/java/mybatis-plus%E6%8E%A5%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <url>/2023/05/14/java/mybatis-plus%E6%8E%A5%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+      
+        <content type="html"><![CDATA[<h3 id="问题1：Invalid-bound-statement-not-found"><a href="#问题1：Invalid-bound-statement-not-found" class="headerlink" title="问题1：Invalid bound statement (not found)"></a>问题1：Invalid bound statement (not found)</h3><h4 id="情况1-读取自己写的maaper-mxl文件方法出错"><a href="#情况1-读取自己写的maaper-mxl文件方法出错" class="headerlink" title="情况1: 读取自己写的maaper.mxl文件方法出错"></a>情况1: 读取自己写的maaper.mxl文件方法出错</h4><p>将旧新mapper.java和mapper.xml都用不同的package来放置， 在DataSourceConfig的@MapperScan和MapperLocaltions中的classpath都配置上不同的package。</p><h4 id="情况2-BaseMapper的CRUD方法出错"><a href="#情况2-BaseMapper的CRUD方法出错" class="headerlink" title="情况2: BaseMapper的CRUD方法出错"></a>情况2: BaseMapper的CRUD方法出错</h4><p>将DataSourceConfig中的SqlSessionFactoryBean改为MybatisSqlSessionFactoryBean的方式注入数据源和Mapper.xml地址</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mybatis, Java, SpringBoot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Butterfly</title>
       <link href="/2023/05/13/Butterfly/"/>
       <url>/2023/05/13/Butterfly/</url>
