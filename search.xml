@@ -8,19 +8,25 @@
       <link href="/2023/05/14/java/mybatis-plus%E6%8E%A5%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
       <url>/2023/05/14/java/mybatis-plus%E6%8E%A5%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
       
-        <content type="html"><![CDATA[<h3 id="问题1：Invalid-bound-statement-not-found"><a href="#问题1：Invalid-bound-statement-not-found" class="headerlink" title="问题1：Invalid bound statement (not found)"></a>问题1：Invalid bound statement (not found)</h3><h4 id="情况1-读取自己写的maaper-mxl文件方法出错"><a href="#情况1-读取自己写的maaper-mxl文件方法出错" class="headerlink" title="情况1: 读取自己写的maaper.mxl文件方法出错"></a>情况1: 读取自己写的maaper.mxl文件方法出错</h4><p>将旧新mapper.java和mapper.xml都用不同的package来放置， 在DataSourceConfig的@MapperScan和MapperLocaltions中的classpath都配置上不同的package。</p><h4 id="情况2-BaseMapper的CRUD方法出错"><a href="#情况2-BaseMapper的CRUD方法出错" class="headerlink" title="情况2: BaseMapper的CRUD方法出错"></a>情况2: BaseMapper的CRUD方法出错</h4><p>将DataSourceConfig中的SqlSessionFactoryBean改为MybatisSqlSessionFactoryBean的方式注入数据源和Mapper.xml地址</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="问题1：Invalid-bound-statement-not-found"><a href="#问题1：Invalid-bound-statement-not-found" class="headerlink" title="问题1：Invalid bound statement (not found)"></a>问题1：Invalid bound statement (not found)</h3><h4 id="情况1-读取自己写的maaper-mxl文件方法出错"><a href="#情况1-读取自己写的maaper-mxl文件方法出错" class="headerlink" title="情况1: 读取自己写的maaper.mxl文件方法出错"></a>情况1: 读取自己写的maaper.mxl文件方法出错</h4><p>将旧新mapper.java和mapper.xml都用不同的package来放置， 在DataSourceConfig的@MapperScan和MapperLocaltions中的classpath都配置上不同的package。</p><h4 id="情况2-BaseMapper的CRUD方法出错"><a href="#情况2-BaseMapper的CRUD方法出错" class="headerlink" title="情况2: BaseMapper的CRUD方法出错"></a>情况2: BaseMapper的CRUD方法出错</h4><p>将DataSourceConfig中的SqlSessionFactoryBean改为MybatisSqlSessionFactoryBean的方式注入数据源和Mapper.xml地址</p><hr><h3 id="问题2-No-qualifying-bean-of-type-‘javax-sql-DataSource’-available-more-than-one-‘primary’-bean-found-among-candidates"><a href="#问题2-No-qualifying-bean-of-type-‘javax-sql-DataSource’-available-more-than-one-‘primary’-bean-found-among-candidates" class="headerlink" title="问题2:No qualifying bean of type ‘javax.sql.DataSource’ available: more than one ‘primary’ bean found among candidates:"></a>问题2:No qualifying bean of type ‘javax.sql.DataSource’ available: more than one ‘primary’ bean found among candidates:</h3><h4 id="同类问题-required-a-single-bean-but-2-were-found"><a href="#同类问题-required-a-single-bean-but-2-were-found" class="headerlink" title="同类问题 required a single bean, but 2 were found"></a>同类问题 required a single bean, but 2 were found</h4><p>由于没有配置主要的数据源， 需要在主要的数据源的所有@Bean注解方法中加上@Primary注解，注意要所有的配置方法都需要加上这个注解。</p><hr><h3 id="问题3-jdbcUrl-is-required-with-driverClassName"><a href="#问题3-jdbcUrl-is-required-with-driverClassName" class="headerlink" title="问题3: jdbcUrl is required with driverClassName"></a>问题3: jdbcUrl is required with driverClassName</h3><p>在读取数据源@ConfigurationProperties(prefix &#x3D; “spring.datasource.druid.xxx”)的时候发现配置有误，   </p><p>检查配置是否有问题修正即可。</p><hr><h3 id="问题4-Not-found-TableId-annotation-Cannot-use-Mybatis-Plus-‘xxById’-Method"><a href="#问题4-Not-found-TableId-annotation-Cannot-use-Mybatis-Plus-‘xxById’-Method" class="headerlink" title="问题4:Not found @TableId annotation, Cannot use Mybatis-Plus ‘xxById’ Method."></a>问题4:Not found @TableId annotation, Cannot use Mybatis-Plus ‘xxById’ Method.</h3><p>实体类没有配置主键， 导致部分BaseMapper方法失效，  可以加上<br><code>@TableId(type = IdType.AUTO)</code>注解到id主键中</p><hr><h3 id="问题5-mybatis-plus-Table-‘xxx-xx-xx’-doesn’t-exist"><a href="#问题5-mybatis-plus-Table-‘xxx-xx-xx’-doesn’t-exist" class="headerlink" title="问题5:mybatis plus  Table ‘xxx.xx_xx’ doesn’t exist"></a>问题5:mybatis plus  Table ‘xxx.xx_xx’ doesn’t exist</h3><p>在使用BaseMapper方法的时候使用了错误的库表路径，  可以通过注解将其纠正，<br>在实体类中添加<br><code>@TableName(value = &quot;xxx.xx_xx&quot;)</code>即可</p><hr>]]></content>
       
       
       <categories>
           
-          <category> Java </category>
+          <category> Java技术栈 </category>
+          
+          <category> debug日志 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Mybatis, Java, SpringBoot </tag>
+            <tag> Mybatis </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> SpringBoot </tag>
             
         </tags>
       
