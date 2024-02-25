@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>mac电脑初始化软件</title>
+      <link href="/2024/02/25/mac/mac%E7%94%B5%E8%84%91%E5%88%9D%E5%A7%8B%E5%8C%96/"/>
+      <url>/2024/02/25/mac/mac%E7%94%B5%E8%84%91%E5%88%9D%E5%A7%8B%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<h3 id="0-xcode"><a href="#0-xcode" class="headerlink" title="0.xcode"></a>0.xcode</h3><p>app store，  带git工具</p><h3 id="1-mac基础软件"><a href="#1-mac基础软件" class="headerlink" title="1.mac基础软件"></a>1.mac基础软件</h3><h4 id="1-1-chrome"><a href="#1-1-chrome" class="headerlink" title="1.1 chrome"></a>1.1 chrome</h4><p><a href="https://www.google.cn/chrome/index.html">下载</a></p><h5 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h5><p>vimium</p><h4 id="1-2-obsidian"><a href="#1-2-obsidian" class="headerlink" title="1.2 obsidian"></a>1.2 obsidian</h4><p><a href="https://obsidian.md/download">下载</a><br><strong>下载要翻墙</strong><br><a href="https://zhuanlan.zhihu.com/p/565028534">iphone&#x2F;ipad同步</a></p><h4 id="1-3-karabiner-elements-mac改键"><a href="#1-3-karabiner-elements-mac改键" class="headerlink" title="1.3 karabiner-elements(mac改键)"></a>1.3 karabiner-elements(mac改键)</h4><p><a href="https://karabiner-elements.pqrs.org/">下载</a><br><a href="https://immwind.com/temporary-resolution-of-karabiner-not-working-in-macos-catalina-beta/">安全隐私问题</a><br>改变right_command+hjkl的方向键</p><h4 id="1-4-Rectangle-屏幕管理"><a href="#1-4-Rectangle-屏幕管理" class="headerlink" title="1.4 Rectangle(屏幕管理)"></a>1.4 Rectangle(屏幕管理)</h4><p><a href="https://www.rectangleapp.com/">下载</a></p><h4 id="1-5-Alfred"><a href="#1-5-Alfred" class="headerlink" title="1.5 Alfred"></a>1.5 Alfred</h4><p><a href="https://xclient.info/s/alfred.html">下载</a><br>关闭聚焦<br>![[Pasted image 20240225174606.png]]</p><h4 id="1-6-iterm-2"><a href="#1-6-iterm-2" class="headerlink" title="1.6 iterm 2"></a>1.6 iterm 2</h4><p><a href="https://iterm2.com/">下载</a><br><a href="https://zhuanlan.zhihu.com/p/145437836">配置oh my zsh</a></p><h4 id="1-7-brew"><a href="#1-7-brew" class="headerlink" title="1.7 brew"></a>1.7 brew</h4><p>下载</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</span><br></pre></td></tr></table></figure><p><a href="https://blog.csdn.net/michael_wgy_/article/details/105838149?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-105838149-blog-106862753.235%5Ev43%5Epc_blog_bottom_relevance_base3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-105838149-blog-106862753.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=3">curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 56 ms: Couldn’t connect to server</a><br><a href="https://zhuanlan.zhihu.com/p/470873649"># command not found: brew</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#国内镜像源下载</span><br><span class="line">/bin/zsh -c &quot;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&quot;</span><br></pre></td></tr></table></figure><h4 id="1-8-Dash"><a href="#1-8-Dash" class="headerlink" title="1.8 Dash"></a>1.8 Dash</h4><p><a href="https://xclient.info/s/dash.html#versions">下载</a></p><h4 id="1-9-Bartender"><a href="#1-9-Bartender" class="headerlink" title="1.9 Bartender"></a>1.9 Bartender</h4><p><a href="https://xclient.info/s/bartender.html#versions">下载</a></p><h4 id="1-10-iStat-Menus"><a href="#1-10-iStat-Menus" class="headerlink" title="1.10 iStat_Menus"></a>1.10 iStat_Menus</h4><p><a href="https://xclient.info/s/istat-menus-for-mac.html#versions">下载</a></p><h4 id="1-11-clipy"><a href="#1-11-clipy" class="headerlink" title="1.11 clipy"></a>1.11 clipy</h4><p><a href="http://www.downza.cn/mac/10409240.html">下载</a></p><h3 id="2-科学上网"><a href="#2-科学上网" class="headerlink" title="2.科学上网"></a>2.科学上网</h3><h5 id="免费"><a href="#免费" class="headerlink" title="免费"></a>免费</h5><p><a href="https://github.com/bannedbook/fanqiang/wiki/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91MAC%E7%BF%BB%E5%A2%99">mac科学上网</a><br><a href="https://w1.v2free.top/user">v2free</a><br><a href="https://github.com/bannedbook/fanqiang/blob/master/macos/ClashX.md">ClassX</a></p><h5 id="github"><a href="#github" class="headerlink" title="github"></a>github</h5><p><a href="https://zhuanlan.zhihu.com/p/678860499">git clone 加速</a></p><h5 id="自搭VPN"><a href="#自搭VPN" class="headerlink" title="自搭VPN"></a>自搭VPN</h5><p><a href="https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B">自建ss服务器教程</a><br><a href="https://www.vultr.com/">vultr服务器</a><br>目前 tiktop ins用不了，还需要再研究下</p><h3 id="3-brew软件"><a href="#3-brew软件" class="headerlink" title="3.brew软件"></a>3.brew软件</h3><ul><li>tree</li><li>npm</li></ul><h4 id="3-1-neovim"><a href="#3-1-neovim" class="headerlink" title="3.1 neovim"></a>3.1 neovim</h4><ul><li><a href="https://blog.csdn.net/weixin_43710676/article/details/134549775">LazyVim nvim bug: module ‘lazy‘ not found</a></li><li><a href="https://blog.csdn.net/Skybububu/article/details/132379910">mac unable to access ‘https://github.com/akinsho/bufferline.nvim.git/': Failed to connect to github.com port                  443 after 75172 ms: Couldn't connect to server</a>关闭防火墙和代理设置</li><li><a href="https://zhuanlan.zhihu.com/p/532486519">键盘映射</a></li></ul><h3 id="4-博客"><a href="#4-博客" class="headerlink" title="4.博客"></a>4.博客</h3><p><a href="https://zhuanlan.zhihu.com/p/26625249">hexo+github</a><br><a href="https://jorywang.cn/">个人主页</a><br><a href="https://www.jianshu.com/p/c60ad2a33a1e"># hexo发生error：spawn failed错误的解决方法</a>用了方法二修改git的https为git@解决</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> mac </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> mac </tag>
+            
+            <tag> 电脑 </tag>
+            
+            <tag> 初始化 </tag>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>《金字塔原理》读书笔记</title>
       <link href="/2024/02/25/%E5%AE%9E%E7%94%A8%E7%B1%BB/%E3%80%8A%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86%E3%80%8B/"/>
       <url>/2024/02/25/%E5%AE%9E%E7%94%A8%E7%B1%BB/%E3%80%8A%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86%E3%80%8B/</url>
